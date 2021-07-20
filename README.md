@@ -59,6 +59,9 @@ You will be running your tests in one terminal and debugging in the other. As yo
 Edit the `ReadMe` file with your answers to the questions below.
 
 1. In your own words, define closure (1-2 sentences).
+
+A closure is a function enclosed with it's lexical environment.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -80,9 +83,16 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+Closure is used on line 81 and 82 because the function was called.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+What stays the same is the function that is called upon. What might change is the randomized number.
+
 c. What is the lexical scope of `newRoll`? 
 
+The lexical scope of `newRoll` is personalDice.
 
 ### Task 3 - Stretch Goals
 
